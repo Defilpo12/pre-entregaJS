@@ -1,3 +1,7 @@
+// Asignar la función calculateLoan al evento click del botón
+document.querySelector('button').addEventListener('click', calculateLoan);
+
+
 // calcular pago mensual
 function calculateMonthlyPayment(amount, interest, years) {
   var monthlyInterestRate = interest / 100 / 12;
