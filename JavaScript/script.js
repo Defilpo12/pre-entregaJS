@@ -53,3 +53,5 @@ function validateInput(event) {
 // asignar validación de entrada a los campos de cantidad y tasa de interés
 document.getElementById('amount').addEventListener('keypress', validateInput);
 document.getElementById('interest').addEventListener('keypress', validateInput);
+
+
