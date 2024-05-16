@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simulador de Préstamos</title>
-    <script src="JavaScript/script.js"></script>
+    <script defer src="script.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,10 +16,9 @@
         <input type="number" id="interest">
         <label for="years">Plazo (Años):</label>
         <input type="number" id="years">
-        <button onclick="calculateLoan()">Calcular</button>
+        <button id="calculateBtn">Calcular</button>
+        <button id="clearStorageBtn">Limpiar Datos</button>
         <div id="result"></div>
     </div>
-
-   
 </body>
 </html>
